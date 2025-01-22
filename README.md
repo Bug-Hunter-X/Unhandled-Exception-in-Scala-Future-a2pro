@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Scala programming involving unhandled exceptions within `Future` objects.  The `bug.scala` file shows the problematic code, where an exception thrown inside a Future is not explicitly handled. The `bugSolution.scala` file provides a corrected version using `recover` or `recoverWith` to gracefully handle potential exceptions.
